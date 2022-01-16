@@ -6,7 +6,7 @@ webhook = Webhook(app) # Defines '/postreceive' endpoint
 
 @app.route("/")        # Standard Flask endpoint
 def hello_world():
-    return "Hello, World!"
+    return "Hello you doing,james!"
 
 @webhook.hook()        # Defines a handler for the 'git push' event
 def on_push(data):
